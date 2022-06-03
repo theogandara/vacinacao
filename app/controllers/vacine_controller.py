@@ -22,7 +22,7 @@ def get_vacines():
         for vacine in vacines
     ]
 
-    return jsonify(serialized), 200
+    return jsonify(serialized), HTTPStatus.OK
 
 
 def create_vacine():
